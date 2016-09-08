@@ -1,4 +1,4 @@
-@font-face{font-family:"PressStart2p"; src: url('../codeman38_press-start-2p/PressStart2p.ttf');}
+@font-face{font-family:"PressStart2p"; src: url('./codeman38_press-start-2p/PressStart2p.ttf');}
 @font-face{font-family:"8bitwonder"; src:url('press_start/PrStart.ttf');}
 
 #title{
