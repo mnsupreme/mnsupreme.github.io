@@ -95,7 +95,7 @@ body {
 }
 
 #psuedo-input{
-	opacity: 0;
+	opacity: 1;
 }
 
 .typed-cursor{
