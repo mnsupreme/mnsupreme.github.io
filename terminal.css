@@ -95,7 +95,7 @@ body {
 }
 
 #psuedo-input{
-	
+	z-index:-1;
 }
 
 .typed-cursor{
