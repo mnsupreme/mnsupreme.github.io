@@ -17,6 +17,7 @@ $(document).ready(function(){
       });
 	
     $("#psuedo-input").focus(function(){
+    $("psuedo-input").empty()
     $("#command").empty()
 		$(".typed-cursor").show()
 	})
