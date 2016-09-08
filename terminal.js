@@ -15,8 +15,9 @@ $(document).ready(function(){
        }
 
       });
-	
-    $("#psuedo-input").focus(function(){
+    
+	$("#pointer").click(function(){
+    $("#psuedo-input").focus()
     $("#psuedo-input").val("")
     $("#command").empty()
 		$(".typed-cursor").show()
