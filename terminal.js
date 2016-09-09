@@ -5,7 +5,7 @@ $(document).ready(function(){
        speed:200,
        lifeLike: true,
        callback: function(){
-       	setTimeout(function(){$("#arrow").append("<p id='init'>intializing...</p>")},300)
+       	setTimeout(function(){$("#arrow").append("<p id='init'>initializing...</p>")},300)
        	setTimeout(function(){
        		$("#arrow").hide()
        		$(".element").remove();
