@@ -99,6 +99,7 @@ $("#psuedo-input").change(function(){
 function about(){
   $("#error").empty()
   $(".typed-cursor").hide()
+  $("html, body").scrollTop( $(document).height() );
   $('#command').empty().typeIt({
     strings: ['cd About'],
     speed:250,
@@ -118,6 +119,7 @@ function about(){
 function skills(){
   $("#error").empty()
   $(".typed-cursor").hide()
+  $("html, body").scrollTop( $(document).height() );
   $('#command').empty().typeIt({
     strings: ['cd Skills'],
     speed:250,
@@ -136,6 +138,7 @@ function skills(){
 function contact(){
   $("#error").empty()
   $('.typed-cursor').hide()
+  $("html, body").scrollTop( $(document).height() );
   $('#command').empty().typeIt({
     strings: ['cd Contact'],
     speed:250,
@@ -156,6 +159,7 @@ function resume(){
   $('.typed-cursor').hide()
   window.open("resume.pdf", "_blank")
   $('.typed-cursor').hide()
+  $("html, body").scrollTop( $(document).height() );
   $('#command').empty().typeIt({
     strings: ['cd Resume'],
     speed:250,
