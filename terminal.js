@@ -76,9 +76,10 @@ $("#psuedo-input").change(function(){
     } 
 
     else{
+      
+      $("#error").text("bash error: command " + "\"" + $("#psuedo-input").val() + "\"" + " does not exist")
       $("#psuedo-input").val("")
       $("#command").empty()
-      $("#error").text("bash error: command " + "\"" + $("#psuedo-input").val() + "\"" + " does not exist")
     }
 
 
