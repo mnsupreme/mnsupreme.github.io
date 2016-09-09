@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     $('.element').typeIt({
        strings: ['Hello World'],
-       speed:600,
+       speed:800,
        lifeLike: true,
        callback: function(){
        	setTimeout(function(){$("#arrow").append("<p id='init'>initializing...</p>")},300)
@@ -102,7 +102,7 @@ function about(){
   $("html, body").scrollTop( $(document).height() );
   $('#command').empty().typeIt({
     strings: ['cd About'],
-    speed:600,
+    speed:800,
     lifeLike: true,
     callback: function(){
       setTimeout(function(){
@@ -122,7 +122,7 @@ function skills(){
   $("html, body").scrollTop( $(document).height() );
   $('#command').empty().typeIt({
     strings: ['cd Skills'],
-    speed:600,
+    speed:800,
     lifeLike: true,
     callback: function(){
       setTimeout(function(){
@@ -141,7 +141,7 @@ function contact(){
   $("html, body").scrollTop( $(document).height() );
   $('#command').empty().typeIt({
     strings: ['cd Contact'],
-    speed:600,
+    speed:800,
     lifeLike: true,
     callback: function(){
       setTimeout(function(){
@@ -162,7 +162,7 @@ function resume(){
   $("html, body").scrollTop( $(document).height() );
   $('#command').empty().typeIt({
     strings: ['cd Resume'],
-    speed:600,
+    speed:800,
     lifeLike: true,
     callback: function(){
       setTimeout(function(){
