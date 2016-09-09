@@ -80,6 +80,7 @@ a{
 a:hover{
   color:lime;
   text-decoration: underline;
+  cursor:pointer;
 }
 
 a:visited{
