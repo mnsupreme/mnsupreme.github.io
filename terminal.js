@@ -110,7 +110,7 @@ function about(){
       $("#command").empty()
       $("#text").empty().append("<p> My name is Mitchell Lee. I am an aspiring web developer. I am also a Southern California native but I attend university Purdue. I like all things technology whether it be hardware or software, and am excited to see how technology will change the world for my generation </p>" + "<p>Some of My Hobbies:</p>" + "<ul>" +"<li>Hackathons</li>" +"<li>Airsoft</li>" +"<li>Anime</li>"+"<li>pondering about the future</li>"+"</ul>").show()
       $("html, body").scrollTop( $(document).height() );
-    }, 1900)
+    }, 1500)
     }
   })
   
@@ -130,7 +130,7 @@ function skills(){
       $("#command").empty()
       $("#text").empty().append("<p>Credentials:</p>" + "<ul>" + "<li> (Currently Attending) Purdue University Bachelors of Science Computer Information Technology</li>" + "<li>General Assembly Vocational Certificate in Front End Web Development</li>" + "<li>Coding Dojo Vocational Certificate Web Development</li>" + "</ul>" + "<p>Skills:</p>"+ "<ul>" + "<li>Front End Web Development</li>" + "<li>Python</li>" + "<li>MEAN stack</li>" + "<li>Ruby</li>" + "</ul>" + "<p>Achievements:</p>" + "<ul>" + "<li>President of Purdue Student Chapter of Association for Unmanned Vehicles International (2016-present)</li>" + "<li>Won the Gap Tech Challenge at LA Hacks (2014)</li>" + "<li>Wolfram Challenge 3rd place winner at M Hacks (2015)</li>" + "</ul>").show()
       $("html, body").scrollTop( $(document).height() );
-    }, 1900)
+    }, 1500)
   }
   })
 }
@@ -149,7 +149,7 @@ function contact(){
       $("#command").empty()
       $("#text").empty().append("<p>Number: 626-861-7861</p>" + "<p>email:mnsupreme@gmail.com</p>" + "<p>university email: lee2141@purdue.edu</p>" + "<p>Mailing Adress: 1016 West Stadium Ave</p>" + "<p>Cary Quadrangle #609</p>" + "<p>West Lafayette, IN 47906</p>" + "<p>Links:</p>" + "<p><a href='https://github.com/mnsupreme'>GitHub</a></p>" + "<p><a href='http://devpost.com/mnsupreme?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav'>DevPost</a></p>").show()
       $("html, body").scrollTop( $(document).height() );
-    }, 1900)
+    }, 1500)
     }
   })
 }
@@ -169,7 +169,7 @@ function resume(){
       $("#psuedo-input").val("")
       $("#command").empty()
       $("html, body").scrollTop( $(document).height() );
-    }, 1900)
+    }, 1500)
     }
 
   })
