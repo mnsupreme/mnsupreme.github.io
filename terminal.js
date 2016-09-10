@@ -40,7 +40,7 @@ $("#psuedo-input").change(function(){
       $("#error").empty()
       $("#psuedo-input").val("")
       $("#command").empty()
-      $("#text").empty().append("<p> My name is Mitchell Lee. I am an aspiring web developer. I am also a Southern California native but I attend university Purdue. I like all things technology whether it be hardware or software, and am excited to see how technology will change the world for my generation </p>" + "<p>Some of My Hobbies:</p>" + "<ul>" +"<li>Hackathons</li>" +"<li>Airsoft</li>" +"<li>Anime</li>"+"<li>pondering about the future</li>"+"</ul>").show()
+      $("#text").empty().append("<p> My name is Mitchell Lee and I am an aspiring web developer. I am a Southern California native currently studying Computer Information Technology at Purdue University. I like all things technology whether it be hardware or software, and I am excited to see how technology will change the world for my generation </p>" + "<p>Some of My Hobbies:</p>" + "<ul>" +"<li>Hackathons</li>" +"<li>Airsoft</li>" +"<li>Anime</li>"+"<li>pondering about the future</li>"+"</ul>").show()
       $("html, body").scrollTop( $(document).height() );
     } 
 
@@ -108,7 +108,7 @@ function about(){
       setTimeout(function(){
       $("#psuedo-input").val("")
       $("#command").empty()
-      $("#text").empty().append("<p> My name is Mitchell Lee. I am an aspiring web developer. I am also a Southern California native but I attend university Purdue. I like all things technology whether it be hardware or software, and am excited to see how technology will change the world for my generation </p>" + "<p>Some of My Hobbies:</p>" + "<ul>" +"<li>Hackathons</li>" +"<li>Airsoft</li>" +"<li>Anime</li>"+"<li>pondering about the future</li>"+"</ul>").show()
+      $("#text").empty().append("<p> My name is Mitchell Lee and I am an aspiring web developer. I am a Southern California native currently studying Computer Information Technology at Purdue University. I like all things technology whether it be hardware or software, and I am excited to see how technology will change the world for my generation </p>" + "<p>Some of My Hobbies:</p>" + "<ul>" +"<li>Hackathons</li>" +"<li>Airsoft</li>" +"<li>Anime</li>"+"<li>pondering about the future</li>"+"</ul>").show()
       $("html, body").scrollTop( $(document).height() );
     }, 1200)
     }
