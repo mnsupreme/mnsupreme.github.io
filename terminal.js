@@ -32,7 +32,7 @@ $("#psuedo-input").change(function(){
       $("#error").empty()
       $("#psuedo-input").val("")
       $("#command").empty()
-      $("#text").empty().append("<p>Credentials:</p>" + "<ul>" + "<li> (Currently Attending) Purdue University Bachelors of Science Computer Information Technology</li>" + "<li>General Assembly Vocational Certificate in Front End Web Development</li>" + "<li>Coding Dojo Vocational Certificate Web Development</li>" + "</ul>" + "<p>Skills:</p>"+ "<ul>" + "<li>Front End Web Development</li>" + "<li>Python</li>" + "<li>MEAN stack</li>" + "<li>Ruby</li>" + "</ul>" + "<p>Achievements:</p>" + "<ul>" + "<li>President of Purdue Student Chapter of Association for Unmanned Vehicles International (2016-present)</li>" + "<li>Won the Gap Tech Challenge at LA Hacks (2014)</li>" + "<li>Wolfram Challenge 3rd place winner at M Hacks (2015)</li>" + "</ul>").show()
+      $("#text").empty().append("<p>Credentials:</p>" + "<ul>" + "<li> Purdue University: Bachelors of Science Computer Information Technology <ul> <li>Expected Graduation Date: May 2019</li></ul></li>" + "<li>General Assembly Vocational Certificate in Front End Web Development</li>" + "<li>Coding Dojo Vocational Certificate Web Development</li>" + "</ul>" + "<p>Skills:</p>"+ "<ul>" + "<li>Front End Web Development</li>" + "<li>Python</li>" + "<li>MEAN stack</li>" + "<li>Ruby</li>" + "</ul>" + "<p>Achievements:</p>" + "<ul>" + "<li>President of Purdue Student Chapter of Association for Unmanned Vehicles International (2016-present)</li>" + "<li>Won the Gap Tech Challenge at LA Hacks (2014)</li>" + "<li>Wolfram Challenge 3rd place winner at M Hacks (2015)</li>" + "</ul>").show()
       $("html, body").scrollTop( $(document).height() );
     } 
 
