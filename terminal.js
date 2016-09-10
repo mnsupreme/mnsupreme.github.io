@@ -48,7 +48,7 @@ $("#psuedo-input").change(function(){
         $("#error").empty()
         $("#psuedo-input").val("")
         $("#command").empty()
-        $("#text").empty().append("<p>Number: 626-861-7861</p>" + "<p>email:mnsupreme@gmail.com</p>" + "<p>university email: lee2141@purdue.edu</p>" + "<p>Mailing Adress: 1016 West Stadium Ave</p>" + "<p>Cary Quadrangle #609</p>" + "<p>West Lafayette, IN 47906</p>" + "<p>Links:</p>" + "<p><a href='https://github.com/mnsupreme'>GitHub</a></p>" + "<p><a href='http://devpost.com/mnsupreme?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav'>DevPost</a></p>").show()
+        $("#text").empty().append("<p>Number: 626-861-7861</p>" + "<p>email:mnsupreme@gmail.com</p>" + "<p>university email: lee2141@purdue.edu</p>" + "<p>Mailing Adress:</p>" + "<ul id='address'> <li>1016 West Stadium Ave</li>" + "<li>Cary Quadrangle #609</li>" + "<li>West Lafayette, IN 47906</li></ul>" + "<p>Links:</p>" + "<p><a href='https://github.com/mnsupreme'>GitHub</a></p>" + "<p><a href='http://devpost.com/mnsupreme?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav'>DevPost</a></p>").show()
         $("html, body").scrollTop( $(document).height() );
     } 
 
@@ -147,7 +147,7 @@ function contact(){
       setTimeout(function(){
       $("#psuedo-input").val("")
       $("#command").empty()
-      $("#text").empty().append("<p>Number: 626-861-7861</p>" + "<p>email:mnsupreme@gmail.com</p>" + "<p>university email: lee2141@purdue.edu</p>" + "<p>Mailing Adress: 1016 West Stadium Ave</p>" + "<p>Cary Quadrangle #609</p>" + "<p>West Lafayette, IN 47906</p>" + "<p>Links:</p>" + "<p><a href='https://github.com/mnsupreme'>GitHub</a></p>" + "<p><a href='http://devpost.com/mnsupreme?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav'>DevPost</a></p>").show()
+      $("#text").empty().append("<p>Number: 626-861-7861</p>" + "<p>email:mnsupreme@gmail.com</p>" + "<p>university email: lee2141@purdue.edu</p>" + "<p>Mailing Adress:</p>" + "<ul id='address'> <li>1016 West Stadium Ave</li>" + "<li>Cary Quadrangle #609</li>" + "<li>West Lafayette, IN 47906</li></ul>" + "<p>Links:</p>" + "<p><a href='https://github.com/mnsupreme'>GitHub</a></p>" + "<p><a href='http://devpost.com/mnsupreme?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav'>DevPost</a></p>").show()
       $("html, body").scrollTop( $(document).height() );
     }, 1200)
     }
