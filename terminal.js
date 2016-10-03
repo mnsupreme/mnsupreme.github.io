@@ -46,7 +46,7 @@ $("#psuedo-input").change(function(){
       $("html, body").scrollTop( $(document).height() );
     } 
 
-    else if($("#psuedo-input").val() == "cd Contact" || $("#psuedo-input").val() == "cd contact" $("#psuedo-input").val() == "cd cat Contact" || $("#psuedo-input").val() == "cd cat contact" ){
+    else if($("#psuedo-input").val() == "cd Contact" || $("#psuedo-input").val() == "cd contact" || $("#psuedo-input").val() == "cd cat Contact" || $("#psuedo-input").val() == "cd cat contact" ){
         $("#error").empty()
         $("#psuedo-input").val("")
         $("#command").empty()
