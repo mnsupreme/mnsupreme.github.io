@@ -30,7 +30,7 @@ var skills = "<p>Credentials:</p>" + "<ul>" + "<li> Purdue University: Bachelors
 	})
 
 $("#psuedo-input").change(function(){
-    if($("#psuedo-input").val() == "cd Skills" || $("#psuedo-input").val() == "cd skills" ){
+    if($("#psuedo-input").val() == "cd Skills" || $("#psuedo-input").val() == "cd skills" || $("#psuedo-input").val() == "cd cat Skills" || $("#psuedo-input").val() == "cd cat skills"){
       $("#error").empty()
       $("#psuedo-input").val("")
       $("#command").empty()
@@ -38,7 +38,7 @@ $("#psuedo-input").change(function(){
       $("html, body").scrollTop( $(document).height() );
     } 
 
-    else if($("#psuedo-input").val() == "cd About" || $("#psuedo-input").val() == "cd about" ){
+    else if($("#psuedo-input").val() == "cd About" || $("#psuedo-input").val() == "cd about" || $("#psuedo-input").val() == "cd cat About" || $("#psuedo-input").val() == "cd cat about" ){
       $("#error").empty()
       $("#psuedo-input").val("")
       $("#command").empty()
@@ -46,7 +46,7 @@ $("#psuedo-input").change(function(){
       $("html, body").scrollTop( $(document).height() );
     } 
 
-    else if($("#psuedo-input").val() == "cd Contact" || $("#psuedo-input").val() == "cd contact" ){
+    else if($("#psuedo-input").val() == "cd Contact" || $("#psuedo-input").val() == "cd contact" $("#psuedo-input").val() == "cd cat Contact" || $("#psuedo-input").val() == "cd cat contact" ){
         $("#error").empty()
         $("#psuedo-input").val("")
         $("#command").empty()
@@ -76,7 +76,7 @@ $("#psuedo-input").change(function(){
       window.open("http://devpost.com/mnsupreme?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav", "_blank");
       $("html, body").scrollTop( $(document).height() );
     } 
-    else if($("#psuedo-input").val() == "help"){
+    else if($("#psuedo-input").val() == "help" || $("#psuedo-input").val() == "ls"){
       $("#error").empty()
       $("#psuedo-input").val("")
       $("#command").empty()
