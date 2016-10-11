@@ -185,7 +185,7 @@ function resume(){
   })
 }
 
-function contact(){
+function projects(){
   $("#error").empty()
   $('.typed-cursor').hide()
   $("html, body").scrollTop( $(document).height() );
