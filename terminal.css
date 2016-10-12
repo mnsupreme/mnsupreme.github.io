@@ -6,6 +6,25 @@
   }
 }
 
+.project_link{
+  text-decoration: underline;
+  padding-bottom:0.5%;
+  padding-left: 0;
+
+}
+
+.project_link:hover{
+  text-decoration: none;
+}
+
+.project_title{
+  margin-bottom:0.5%;
+}
+
+.project_description{
+  margin-top:0%;
+}
+
 #title{
 	font-family:"PressStart2p";
 	font-weight: "bold";
