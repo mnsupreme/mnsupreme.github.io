@@ -63,7 +63,7 @@ $("#psuedo-input").change(function(){
         $("html, body").scrollTop( $(document).height() );
     } 
 
-    else if($("#psuedo-input").val() == "cd Projects" || $("#psuedo-input").val() == "cd projects" || $("#psuedo-input").val() == "cd cat Project" || $("#psuedo-input").val() == "cd cat project" ){
+    else if($("#psuedo-input").val() == "cd Projects" || $("#psuedo-input").val() == "cd projects" || $("#psuedo-input").val() == "cd cat Projects" || $("#psuedo-input").val() == "cd cat projects" ){
         $("#error").empty()
         $("#psuedo-input").val("")
         $("#command").empty()
