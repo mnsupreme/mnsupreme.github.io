@@ -1,8 +1,11 @@
-var Skills = "<p>Credentials:</p>" + "<ul>" + "<li> Purdue University: Bachelors of Science Computer Information Technology <ul> <li>Expected Graduation Date: May 2019</li></ul></li>" + "<li>General Assembly Vocational Certificate in Front End Web Development</li>" + "<li>Coding Dojo Vocational Certificate Web Development</li>" + "</ul>" + "<p>Skills:</p>"+ "<ul>" + "<li>HTML</li>" + "<li>CSS</li>" + "<li>bootstrap</li>" + "<li>javascript</li>" + "<li>jquery</li>" + "<li>Python</li>" + "<li>SQL</li>" + "<li>MEAN stack (MongoDB, Express, Angular, Node.js)</li>" + "<li>Ruby</li>" + "</ul>" + "<p>Involvements:</p>" +"<ul>" + "<li>President of Purdue Student Chapter of Association for Unmanned Vehicles International (2016-present)</li>" + "<li>Purdue Hackers(2015-present)</li>"  + "</ul>"
+var Skills = "<p>Credentials:</p>" + "<ul>" + "<li> Purdue University: Bachelors of Science Computer Information Technology <ul> <li>Expected Graduation Date: May 2019</li></ul></li>" + "<li>General Assembly Vocational Certificate in Front End Web Development</li>" + "<li>Coding Dojo Vocational Certificate Web Development</li>" + "</ul>" + "<p>Skills:</p>"+ "<ul>" + "<li>HTML</li>" + "<li>CSS</li>" + "<li>bootstrap</li>" + "<li>javascript</li>" + "<li>jquery</li>" + "<li>Python</li>" + "<li>SQL</li>" + "<li>MEAN stack (MongoDB, Express, Angular, Node.js)</li>" + "<li>Hapi.js</li>" + "<li>Handlebars</li>" + "<li>Unit Testing</li>" + "</ul>" + "<p>Involvements:</p>" +"<ul>" + "<li>President of Purdue Student Chapter of Association for Unmanned Vehicles International (2016-present)</li>" + "<li>Purdue Hackers(2015-present)</li>"  + "</ul>"
 var About =  "<p> My name is Mitchell Lee, and I am a junior web developer. I am a Southern California native currently studying Computer Information Technology at Purdue University. I like all things technology whether it be hardware or software, and I am excited to see how technology will change the world for my generation </p>" + "<p>Some of My Hobbies:</p>" + "<ul>" +"<li>Hackathons</li>" +"<li>Airsoft</li>" +"<li>Anime</li>"+"<li>pondering about the future</li>"+"</ul>"
 var Contact = "<p>Number: 626-861-7861</p>" + "<p>email:mnsupreme@gmail.com</p>" + "<p>university email: lee2141@purdue.edu</p>" + "<p>Mailing Adress:</p>" + "<ul id='address'> <li>1016 West Stadium Ave</li>" + "<li>Cary Quadrangle #609</li>" + "<li>West Lafayette, IN 47906</li></ul>" + "<p>Links:</p>" + "<p><a href='https://github.com/mnsupreme' target='_blank'>GitHub</a></p>" + "<p><a href='http://devpost.com/mnsupreme?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav' target='_blank'>DevPost</a></p>" + "<p><a href='https://www.hackerearth.com/@lee2141' target='_blank'>Hacker Earth</a></p>" + "<p><a href='https://www.linkedin.com/in/mitchell-lee' target='_blank'>LinkedIn</a></p>" 
 var Help = "<table id='help'><tr><td>cd Skills</td><td>cd About</td></tr><tr><td>cd Contact</td><td>cd Resume</td></tr><tr><td>cd Github</td><td>cd Devpost</td></tr><tr><td>cd Projects</td></tr></table>"
-var Project = `
+var Portfolio = `
+<h3 class="project_title"><a href='https://engineering.purdue.edu/CEM/events/2016/3id-joins-cem-enterprise-' target="_blank" class="project_link"> 3iD Applications Student Developer 2016-present</a></h3><p>3iD develops websites and mobile apps for Purdue University and its associated departments. As a Student developer I help to develop the backend in PHP and SQL. I also help to develop the front end in Javascript, Jquery, HTML and CSS.</p>
+<h3 class="project_title"><a href='http://www.in3applications.com/' target="_blank" class="project_link"> IN3 Applications Student Developer 2016-present</a></h3><p>IN3 applications develops websites and mobile apps for private clientel. As a Student developer I help to develop the backend in PHP and SQL. I also help to the develop the front end in Javascript, Jquery, HTML and CSS. I have also write python scripts to help get images and location information from the Google Maps API</p>
+<h3 class="project_title"><p class="project_link">Lowe's Summer 2017 Web Development Internship</p></h3><p class="project_description">Interned as a Web Developer for Lowe's Home Improvement at their corporate headquarters. Developed a front end interface to test their store finder API. Formatted and displayed JSON from the API. The app caught invalid entries and assigned each JSON category a different color for readability purposes. Project finished well ahead of schedule. Written using Node.js using Hapi.js as the backend framework and Handlebars as the front end framework. HTML, Jquery and Lowe's own in house CSS framework were used to stylize the front end. Lastly, the app was unit tested using Lab.js which is part of the Hapi framework.</p>
 <h3 class="project_title"><a href='http://devpost.com/software/lahacks-gap' target="_blank" class="project_link" >LA Hacks Spring 2015 Gap Tech Challenge (1st place winner)</a></h3><p class="project_description">This project was created at LA Hacks 2015 for Gap with the goal of using web development to better engage their customers. Gap would host a \"who wore it better contest\" on Instagram where users would mark their submissions with a certain hashtag. Our web app would then scrape Instagram for this hashtag and send it to a mock employee console. I wrote most of the front end (two web pages) in bootstrap as well as embed the Instagram posts (from their api) into the front end using iframes. The title of this project is GapWWIB. It is important to note that because this was our first hackathon, the documentation for the project was not to good. I am not marked as a contributor on Github and the Devpost submission does not mark us as winners even though we did win first place.</p>
 <h3 class="project_title"><a href='http://devpost.com/software/application-optimization' target="_blank" class="project_link" >M Hacks Fall 2015 Wolfram Challenge (3rd place)</a></h3><p class="project_description">This app allowed people seeking employment to rank job postings based on the public sentiment of the employers. It was written in Mathematica, Node.js and Jade. We used a jobs posting website's api to get the job listings. A web scraper looked up thousands of online articles related to the employers and ran it through a sentiment analysis script writen in Mathematica that gave the employers an aggregate seniment ranking. I wrote a responsive front end in CSS flex box, Jquery and Jade. My team mates helped correct some of my Jade code as it was my first time using it. We won third place in this challenge. The title of the project is FLuxDuck</p>
 <h3 class="project_title"><a href='https://bigredhacks2016.hackerearth.com/sprints/bigredhacks-fall-2016/teams/4eb2c88/submission/' target="_blank" class="project_link">Subletr Big Red Hacks Fall 2016</a></h3><p class="project_description">This app helped people find places to sublet. It was written in MEAN (MongoDB, Express, Angular, Node.js) stack. I wrote 40% of the node server, most of the angular and all of the MongoDB. I also deployed the project on an Amazon EC2 instance and helped some of the newer memebers. At first glance, this app may seem simple and may have a few bugs. However, it was an impressive feat of team work considering that all my teammates had never been to a hackathon or had used MEAN stack before. Half of the team had never had any exposure to web development of front end development.  Yet, we were able deploy a full web app complete with front end frame work and database on an Amazon EC2 server within 36 hours.</p>
@@ -63,11 +66,11 @@ $("#psuedo-input").change(function(){
         $("html, body").scrollTop( $(document).height() );
     } 
 
-    else if($("#psuedo-input").val() == "cd Projects" || $("#psuedo-input").val() == "cd projects" || $("#psuedo-input").val() == "cd cat Projects" || $("#psuedo-input").val() == "cd cat projects" ){
+    else if($("#psuedo-input").val() == "cd Portfolio" || $("#psuedo-input").val() == "cd portfolio" || $("#psuedo-input").val() == "cd cat Portfolio" || $("#psuedo-input").val() == "cd cat portfolio" ){
         $("#error").empty()
         $("#psuedo-input").val("")
         $("#command").empty()
-        $("#text").empty().append(Project).show()
+        $("#text").empty().append(Portfolio).show()
         $("html, body").scrollTop( $(document).height() );
     }
 
@@ -194,19 +197,19 @@ function resume(){
   })
 }
 
-function projects(){
+function portfolio(){
   $("#error").empty()
   $('.typed-cursor').hide()
   $("html, body").scrollTop( $(document).height() );
   $('#command').empty().typeIt({
-    strings: ['cd Projects'],
+    strings: ['cd Portfolio'],
     speed:100,
     lifeLike: true,
     callback: function(){
       setTimeout(function(){
       $("#psuedo-input").val("")
       $("#command").empty()
-      $("#text").empty().append(Project).show()
+      $("#text").empty().append(Portfolio).show()
       $("html, body").scrollTop( $(document).height() );
     }, 1200)
     }
