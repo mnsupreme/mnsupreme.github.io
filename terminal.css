@@ -1,5 +1,11 @@
 @font-face{font-family:"PressStart2p"; src: url('../mnsupreme.github.io/codeman38_press-start-2p/PressStart2P.ttf') format('truetype');}
 
+@media screen (max-width: 1400px){
+  body{
+    zoom:150%;
+  }
+}
+
 @media(max-width: 1920px) and (max-width: 1080px){
   #arrow{
     transform:scale(5);
