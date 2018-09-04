@@ -1,10 +1,6 @@
 @font-face{font-family:"PressStart2p"; src: url('../mnsupreme.github.io/codeman38_press-start-2p/PressStart2P.ttf') format('truetype');}
 
-@media screen (max-width: 1400px){
-  body{
-    zoom:150%;
-  }
-}
+
 
 @media(max-width: 1920px) and (max-width: 1080px){
   #arrow{
@@ -152,6 +148,7 @@ div{
 
 body {
 	background-color:black;
+  margin-left:0;
 }
 
 #psuedo-input{
@@ -190,4 +187,79 @@ body {
 span {
 	color:lime;
 	font-family: "Cutive Mono";
+}
+
+@media only screen and (max-width: 375px){
+
+  #ASC2_name{
+    width: 95%;
+  }
+
+  #profile{
+    width:85%;
+  }
+
+  table{
+    padding: 2%;
+    margin-top: 4%;
+    margin-bottom:3%;
+  }
+
+  a{
+    padding: 2.5%;
+  }
+
+  body{
+    font-size:85%;
+  }
+
+
+}
+
+
+
+@media only screen and (min-width: 375px) and (max-width: 1000px){
+
+  #ASC2_name{
+    width: 95%;
+  }
+
+  #profile{
+    width:85%;
+  }
+
+  table{
+    padding: 2%;
+    margin-top: 4%;
+    margin-bottom:3%;
+  }
+
+  a{
+    padding: 2.5%;
+  }
+
+
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1400px){
+
+  #ASC2_name{
+    width: 95%;
+  }
+
+  #profile{
+    width:85%;
+  }
+
+  table{
+    padding: 2%;
+    margin-top: 4%;
+    margin-bottom:3%;
+  }
+ 
+  body{
+    font-size: 140%;
+  }
+
+
 }
