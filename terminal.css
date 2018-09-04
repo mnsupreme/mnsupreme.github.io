@@ -156,7 +156,6 @@ body {
 }
 
 .typed-cursor{
-	display: none;
 	font-size: 1.4em;
 	color:lime;
 	font-weight:thin;

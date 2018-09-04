@@ -26,6 +26,7 @@ $(document).ready(function(){
        		$(".element").remove();
        		$("#init").hide();
        		$("#content").show();
+          $("#psuedo-input").focus()
        	}, 2100)
        }
 
