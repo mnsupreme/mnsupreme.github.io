@@ -98,7 +98,7 @@ $("#psuedo-input").change(function(){
       window.open("http://devpost.com/mnsupreme?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav", "_blank");
       $("html, body").scrollTop( $(document).height() );
     } 
-    else if($("#psuedo-input").val() == "help" || $("#psuedo-input").val() == "ls"){
+    else if($("#psuedo-input").val() == "help" || $("#psuedo-input").val() == "Help" || $("#psuedo-input").val() == "ls"){
       $("#error").empty()
       $("#psuedo-input").val("")
       $("#command").empty()
