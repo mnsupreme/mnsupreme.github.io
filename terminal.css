@@ -73,6 +73,10 @@
   border:none;
 }
 
+#help a{
+  padding:0;
+}
+
 #text{
   margin-top: 2%;
 	display: none;
