@@ -44,7 +44,10 @@ $(document).ready(function(){
 	})
 
 $("#psuedo-input").change(function(){
-    if($("#psuedo-input").val() == "cd Skills" || $("#psuedo-input").val() == "cd skills" || $("#psuedo-input").val() == "cd cat Skills" || $("#psuedo-input").val() == "cd cat skills"){
+
+    input = $("#psuedo-input").val().trim()
+
+    if(input == "cd Skills" || input == "cd skills" || input == "cd cat Skills" || input == "cd cat skills"){
       $("#error").empty()
       $("#psuedo-input").val("")
       $("#command").empty()
@@ -52,7 +55,7 @@ $("#psuedo-input").change(function(){
       $("html, body").scrollTop( $(document).height() );
     } 
 
-    else if($("#psuedo-input").val() == "cd About" || $("#psuedo-input").val() == "cd about" || $("#psuedo-input").val() == "cd cat About" || $("#psuedo-input").val() == "cd cat about" ){
+    else if(input == "cd About" || input == "cd about" || input == "cd cat About" || input == "cd cat about" ){
       $("#error").empty()
       $("#psuedo-input").val("")
       $("#command").empty()
@@ -60,7 +63,7 @@ $("#psuedo-input").change(function(){
       $("html, body").scrollTop( $(document).height() );
     } 
 
-    else if($("#psuedo-input").val() == "cd Contact" || $("#psuedo-input").val() == "cd contact" || $("#psuedo-input").val() == "cd cat Contact" || $("#psuedo-input").val() == "cd cat contact" ){
+    else if(input == "cd Contact" || input == "cd contact" || input == "cd cat Contact" || input == "cd cat contact" ){
         $("#error").empty()
         $("#psuedo-input").val("")
         $("#command").empty()
@@ -68,7 +71,7 @@ $("#psuedo-input").change(function(){
         $("html, body").scrollTop( $(document).height() );
     } 
 
-    else if($("#psuedo-input").val() == "cd Portfolio" || $("#psuedo-input").val() == "cd portfolio" || $("#psuedo-input").val() == "cd cat Portfolio" || $("#psuedo-input").val() == "cd cat portfolio"){
+    else if(input == "cd Portfolio" || input == "cd portfolio" || input == "cd cat Portfolio" || input == "cd cat portfolio"){
         $("#error").empty()
         $("#psuedo-input").val("")
         $("#command").empty()
@@ -76,7 +79,7 @@ $("#psuedo-input").change(function(){
         $("html, body").scrollTop( $(document).height() );
     }
 
-    else if($("#psuedo-input").val() == "cd Resume" || $("#psuedo-input").val() == "cd resume" ){
+    else if(input == "cd Resume" || input == "cd resume" ){
       $("#error").empty()
       $("#psuedo-input").val("")
       $("#command").empty()
@@ -84,21 +87,21 @@ $("#psuedo-input").change(function(){
       $("html, body").scrollTop( $(document).height() );
     } 
 
-    else if($("#psuedo-input").val() == "cd github" || $("#psuedo-input").val() == "cd GitHub" || $("#psuedo-input").val() == "cd Github" ){
+    else if(input == "cd github" || input == "cd GitHub" || input == "cd Github" ){
       $("#error").empty()
       $("#psuedo-input").val("")
       $("#command").empty()
       window.open("https://github.com/mnsupreme", "_blank");
       $("html, body").scrollTop( $(document).height() );
     }
-     else if($("#psuedo-input").val() == "cd Devpost" || $("#psuedo-input").val() == "cd DevPost" || $("#psuedo-input").val() == "cd devpost" ){
+     else if(input == "cd Devpost" || input == "cd DevPost" || input == "cd devpost" ){
       $("#error").empty()
       $("#psuedo-input").val("")
       $("#command").empty()
       window.open("http://devpost.com/mnsupreme?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav", "_blank");
       $("html, body").scrollTop( $(document).height() );
     } 
-    else if($("#psuedo-input").val() == "help" || $("#psuedo-input").val() == "Help" || $("#psuedo-input").val() == "ls"){
+    else if(input == "help" || input == "Help" || input == "ls"){
       $("#error").empty()
       $("#psuedo-input").val("")
       $("#command").empty()
